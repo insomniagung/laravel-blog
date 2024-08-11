@@ -11,5 +11,6 @@
 </svg> --}}
 
 <div class="text-gray-800 font-semibold">
-    <span class="text-yellow-500 text-xl">&lt;Main.</span>Kode&gt; &nbsp;&nbsp;
+    <span class="text-yellow-500 text-xl">&lt;Main.</span><span class="text-sm">Kode&gt;</span>
+    &nbsp;&nbsp;
 </div>

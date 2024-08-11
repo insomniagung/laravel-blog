@@ -8,6 +8,6 @@
             fill="#6875F5" />
     </svg> --}}
     <div class="text-gray-800 font-semibold">
-        <span class="text-yellow-500 text-3xl">&lt;Main.</span>Kode&gt; &nbsp;&nbsp;
+        <span class="text-yellow-500 text-3xl">&lt;Main.</span><span class="text-xl">Kode&gt;</span>
     </div>
 </a>
