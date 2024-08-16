@@ -18,7 +18,8 @@
     <div class="mb-10 w-full">
         <!-- Featured Posts -->
         <div class="mb-16">
-            <h2 class="mt-16 mb-5 text-3xl text-yellow-500 font-bold">Featured Posts</h2>
+            {{-- <h2 class="mt-16 mb-5 text-3xl text-yellow-500 font-bold">Featured Posts</h2> --}}
+            <h2 class="mt-16 mb-5 text-3xl text-yellow-500 font-bold">Posting Unggulan</h2>
             <div class="w-full">
                 <!-- List-->
                 <div class="grid grid-cols-3 gap-10 w-full">
@@ -30,13 +31,12 @@
                 </div>
             </div>
             <a class="mt-10 block text-center text-lg text-yellow-500 font-semibold"
-                href="http://127.0.0.1:8000/blog">More
-                Posts</a>
+                href="http://127.0.0.1:8000/blog">Posting Lainnya</a>
         </div>
         <hr>
 
         <!-- Latest Posts -->
-        <h2 class="mt-16 mb-5 text-3xl text-yellow-500 font-bold">Latest Posts</h2>
+        <h2 class="mt-16 mb-5 text-3xl text-yellow-500 font-bold">Posting Terbaru</h2>
         <div class="w-full mb-5">
             <!-- List -->
             <div class="grid grid-cols-3 gap-10 w-full">
@@ -47,7 +47,6 @@
                 @endforeach
             </div>
         </div>
-        <a class="mt-10 block text-center text-lg text-yellow-500 font-semibold" href="http://127.0.0.1:8000/blog">More
-            Posts</a>
+        <a class="mt-10 block text-center text-lg text-yellow-500 font-semibold" href="http://127.0.0.1:8000/blog">Posting Lainnya</a>
     </div>
 </x-app-layout>

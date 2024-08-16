@@ -4,6 +4,7 @@
             <div id="posts" class=" px-3 lg:px-7 py-6">
                 <div class="flex justify-between items-center border-b border-gray-100">
                     <div id="filter-selector" class="flex items-center space-x-4 font-light ">
+                        <span class="text-gray-500 py-4">Posting:</span>
                         {{-- Latest --}}
                         <button class="text-gray-500 py-4">Terbaru</button>
                         {{-- Oldest --}}
@@ -11,11 +12,11 @@
                     </div>
                 </div>
                 <div class="py-4">
-                    <!-- Article Start -->
+                    <!-- Posting Start -->
                     @foreach ($posts as $post)
                         <x-posts.post-item :post="$post" />
                     @endforeach
-                    <!-- Article End -->
+                    <!-- Posting End -->
                 </div>
             </div>
         </div>
@@ -39,7 +40,7 @@
             </div>
 
             <div id="recommended-topics-box">
-                <h3 class="text-lg font-semibold text-gray-900 mb-3">Eksplorasi Unggulan</h3>
+                <h3 class="text-lg font-semibold text-gray-900 mb-3">Kategori Unggulan</h3>
                 <div class="topics flex flex-wrap justify-start">
                     <a href="#" class="bg-red-600 
                                     text-white 
