@@ -1,7 +1,8 @@
 <x-app-layout>
 
     @section('hero')
-        <div class="w-full text-center py-32">
+        {{-- <div class="w-full text-center py-32"> --}}
+        <div class="w-full text-center py-48">
             <h1 class="text-2xl md:text-3xl font-bold text-center lg:text-5xl text-gray-700">
                 {{-- Welcome to <span class="text-yellow-500">&lt;YELO&gt;</span> <span class="text-gray-900"> News</span> --}}
                 {{-- <span class="text-yellow-500">&lt;Main.</span><span class="text-gray-900 text-3xl">Kode&gt;</span> --}}
